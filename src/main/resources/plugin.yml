@@ -1,0 +1,18 @@
+author: rakiru
+database: false
+description: ${project.description}
+main: com.fuckingwin.bukkit.rakiru.lightningdeath.LightningDeathPlugin
+name: LightningDeath
+startup: postworld
+url: '${project.url}'
+version: '${project.version}'
+commands:
+  lightningdeath:
+    description: LightningDeath specific things
+    permission: lightningdeath.lightningdeath
+    usage: /lightningdeath <reload> - does stuff
+
+permissions:
+  lightningdeath.lightningdeath:
+    description: All LightningDeath permissions
+    default: op
