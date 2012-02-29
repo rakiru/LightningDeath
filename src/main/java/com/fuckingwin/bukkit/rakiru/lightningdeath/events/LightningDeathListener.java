@@ -19,7 +19,7 @@ public class LightningDeathListener implements Listener {
 
 	@EventHandler
 	public void onPlayerLogin(EntityDeathEvent event) {
-		if (plugin.config.isDamagin()) {
+		if (plugin.config.isDamaging()) {
 			event.getEntity().getWorld().strikeLightning(event.getEntity().getLocation());
 		} else {
 			event.getEntity().getWorld().strikeLightningEffect(event.getEntity().getLocation());

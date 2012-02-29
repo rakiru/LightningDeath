@@ -22,7 +22,7 @@ public class Config {
 		plugin.saveConfig();
 	}
 
-	public boolean isDamagin() {
+	public boolean isDamaging() {
 		return config.getBoolean("lightning-causes-damage");
 	}
 }
